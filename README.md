@@ -10,9 +10,10 @@
   </p>
 
   <p style="font-size: 1.05em; color: #666; line-height: 1.6; margin-bottom: 30px; text-align: justify;">
-    Transformamos sentimentos em código criando sites de presentes exclusivos e totalmente personalizados para aniversários, namoros, casamentos e momentos especiais. Inclua fotos, músicas e mensagens marcantes em uma página única que fica no ar por 30 dias com a segurança e velocidade do Cloudflare.
+    Transformamos sentimentos em código criando sites de presentes exclusivos e totalmente personalizados para aniversários, namoros, casamentos e momentos especiais. Inclua fotos, audios e mensagens marcantes em uma página única que fica no ar por 30 dias com a segurança e velocidade do Cloudflare.
   </p>
   <p>Um cartão em pdf para a entrega do link. <hr> Um site no ar por um mês. <hr> Um arquivo pdf com todos os buquês e mensagens. </p>
+  <p>Tudo preparado com muito carinho depois de uma anamnese</p>
   
   <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
 
