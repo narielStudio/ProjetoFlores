@@ -15,7 +15,7 @@
   <p> Um cartão em pdf para a entrega do link. </p>
   <p> Um site no ar por um mês. </p> 
   <p> Um arquivo pdf com todos os buquês e mensagens. </p>
-  <p>Tudo preparado com muito carinho depois de uma anamnese</p>
+  <p>Tudo preparado com muito carinho depois de uma anamnese. </p>
   
   <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
 
