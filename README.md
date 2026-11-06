@@ -1,7 +1,7 @@
 
 <div align="center" style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
 
- <img src="cartao.jpg" alt="Nariel Studio - Flores Virtuais" width="600px" style="border-radius: 8px; margin-bottom: 20px;">
+ <img src="img/cartao.jpg" alt="Nariel Studio - Flores Virtuais" width="600px" style="border-radius: 8px; margin-bottom: 20px;">
  
   <h1 style="color: #333; margin-bottom: 10px;">Nariel Studio — Flores Virtuais 🌸</h1>
   
