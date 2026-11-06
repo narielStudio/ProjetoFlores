@@ -3,7 +3,7 @@
 
  <img src="img/cartao.jpg" alt="Nariel Studio - Flores Virtuais" width="600px" style="border-radius: 8px; margin-bottom: 20px;">
  
-  <h1 style="color: #333; margin-bottom: 10px;">Nariel Studio — Flores Virtuais 🌸</h1>
+ 
   
   <p style="font-size: 1.2em; font-weight: bold; color: #555; margin-bottom: 20px;">
     Uma experiência desenvolvida sob medida para você e para quem você ama.
