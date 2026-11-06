@@ -1,0 +1,294 @@
+body {
+    margin:0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url('../img/fundo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding-top: 6vh;
+    padding-bottom: 8vh;
+    box-sizing: border-box;
+}
+
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: #191970;
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 120px;
+}
+
+button {
+    background-color:#D2B48C;
+    display: block;
+    margin:30px auto;
+    margin-top: 80px;
+    margin-bottom: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+}
+
+.p3 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+}
+
+h2 {
+    color: #191970;
+    text-align: center;
+    margin-top: 120px;
+    font-family: "Sacramento";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.p1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.p2 {
+    color: #8B4513;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+
+img {
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    border: 7px solid #191970;
+}
+
+.option-grid {
+    display: block;
+    padding: 20px;
+}
+
+.option-card{
+    display: flexbox;
+    padding: 10px;
+    text-align: center;
+}
+
+.frase {
+    text-align: center;
+}
+
+.btn {
+    background:#D2B48C;
+    color: #A52A2A;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    margin-top: 100px;
+}
+
+.btn2 {
+    background:#D2B48C;
+    color: #A52A2A;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    height: 60px;
+    padding: 0;
+    margin-top: 90px;
+}
+
+.btn3 {
+    background:#D2B48C;
+    color: #A52A2A;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    height: 60px;
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+.btn4 {
+    color: #A52A2A;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-card{
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.option-card.selecionado {
+    transform: scale(0.8);
+    transition: all 0.2s ease;   
+}
+
+#imagemBuque {
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    height: 700px;
+}
+
+.texFinal {
+    white-space: pre-line;
+    font-size: 30px;
+    padding: 15px;
+}
+
+footer {
+    mix-blend-mode:multiply;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding:  0;
+    z-index: 999;
+}
+
+.footer-outrasTelas2 {
+    position:relative;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding:  0;
+    justify-content: center;
+}
+
+.minhalogo{
+   width: 100px;
+   height: 25px;
+   border: none;
+   margin-bottom: 0;
+}
+
+.footer-outrasTelas2. .minhalogo {
+    display: flexbox;
+    justify-content: space-between;
+}
+
+@media(max-width: 767px) {
+    body {
+        background-size: 100% 100%;
+    }
+
+    .tela2c, .tela3c {
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: space-between;
+
+        padding-top: 6vh;
+        padding-bottom: 8vh;
+        box-sizing: border-box;
+
+        background-attachment: scroll;
+    }
+}
+
+@media(max-width: 480px) {
+
+.options-grid {
+  
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    padding: 2px;
+   }
+.option-card {
+    display: flex;
+    width: 50%;
+    height: auto;
+    min-height: 0;
+    
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+
+.florcel {
+    min-width: 60%;
+}
+ #imagemBuque {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+}
+
+p {
+    padding: 10px;
+}
+
+.p1{
+    font-size: 20px;
+}
+
+ .p3. h2{
+    text-align: center;
+}
+
+.btn {
+    margin-top: 150px;
+}
+
+.texFinal {
+    padding: 20px;
+}
+}

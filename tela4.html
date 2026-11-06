@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title> Para Scully </title>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/svg+xml" href="img/favicon.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    
+    </head>
+
+<body>
+
+    <div id="tela4" class="screen">
+        
+        <h1 class="Barbara">(nome)</h1>
+    
+        <div class="carta-container">
+            <p id="textoFinal" class="texFinal" color:"black" font-size="30px"></p>
+        </div>
+
+        <audio id="musica-fundo" src="" loop></audio>
+
+        <button onclick="window.location.href='index.html'" class="btn4">Montar outro buquê.</button>
+    </div>
+    
+
+     <footer class="footer-outrasTelas2">
+           <img src="img/logoOriginal.png" alt="logo nariel" class="minhalogo"><br><br><br><br> &copy; 2026 | Desenvolvido por Nariel <br> e Arte gerada por IA
+    </footer>
+
+    <script src="js/script5.js"></script>
+
+   <script>
+        window.onload = function() {
+            const mensagem = localStorage.getItem('mensagemFinal');
+
+            
+            const elementoTexto = document.getElementById('textoFinal');
+            if (elementoTexto) {
+                if (mensagem) {
+                    elementoTexto.innerText = mensagem;
+                
+                
+            } else {
+                elementoTexto.innerText = "Com carinho, Pill.";
+            }
+        }
+        };
+    </script>
+
+</body>
+</html>
